@@ -2363,6 +2363,7 @@ input, select, textarea {
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			color: green;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -2396,9 +2397,10 @@ input, select, textarea {
 			}
 
 		#banner p {
-			padding: 6.35em 1em;
+			padding: 1.35em 1em;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			color: green;
 
 		}
 
@@ -2489,8 +2491,6 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
-				height: auto;
 				min-height: 0;
 			}
 
@@ -2735,13 +2735,13 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, r#FFC824, rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-position: top center;
 		background-repeat: no-repeat;
-		background-size: 50%;
+		background-size: 45%;
 		padding-top: 0;
 	}
 
@@ -2752,7 +2752,7 @@ input, select, textarea {
 		background-attachment: scroll;
 		background-position: center top;
 		background-size: contain;
-		padding-top: 0;
+		padding-top: 30;
 		border: 1px; 
 
 	}
