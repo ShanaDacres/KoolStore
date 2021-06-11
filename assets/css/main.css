@@ -2269,7 +2269,6 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-position: 50% 5%;
 		background-repeat: no-repeat;
-		background-size: 45%;
 		padding-top: 0;
 	}
 
@@ -2278,8 +2277,8 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("../../images/Logo.PNG");
 		background-repeat: no-repeat;
 		background-attachment: scroll;
-		background-position: center top;
-		background-size: contain;
+		background-position: 50% 5%;
+		background-size: 80%;
 		padding-top: 0;
 		border: 1px; 
 
